@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fede4bright",
+  "version": "${version}",
+  "name": "fede4bright",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "homepage": "https://github.com/FedericoLupoli/fede4bright",
+    "issues": "https://github.com/FedericoLupoli/fede4bright/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.fede4weed.fede4bright.client.Fede4brightClient"
+    ],
+    "main": [
+      "me.fede4weed.fede4bright.Fede4bright"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
